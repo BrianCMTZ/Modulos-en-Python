@@ -1,7 +1,7 @@
-from Modelos import Mensaje
+from Modelos import Videojuego
 
-Mensaje1=Mensaje("briancayetano@gmail.com","Hola, Prueba progra")
-Mensaje2=Mensaje("jose123456@gmail.com","Hola, urgente")
+juego1 = Videojuego("FIFA", "Deportes", 1993)
+juego2 = Videojuego("Call of Duty", "Shooter", 2003)
 
-print(f"{Mensaje1.resumen()}")
-print(f"{Mensaje2.resumen()}")
+print(juego1.resumen())
+print(juego2.resumen())
