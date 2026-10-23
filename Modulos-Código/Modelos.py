@@ -1,7 +1,8 @@
-class Mensaje:
-    def __init__(self, remitente, asunto):
-        self.remitente = remitente
-        self.asunto = asunto
+class Videojuego:
+    def __init__(self, titulo, genero, año):
+        self.titulo = titulo
+        self.genero = genero
+        self.año = año
 
     def resumen(self):
-        return f"De {self.remitente}: {self.asunto}"
+        return f"El Juego es: {self.titulo} su género: {self.genero} y fue lanzado en: {self.año}"
